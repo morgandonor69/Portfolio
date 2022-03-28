@@ -16,7 +16,6 @@ export const TOTAL_SCREENS = [
         component: Resume, 
     }
 
-
 ]
 
 export const GET_SCREEN_INDEX = (screen_name)=>{
@@ -25,4 +24,4 @@ export const GET_SCREEN_INDEX = (screen_name)=>{
         if(TOTAL_SCREENS[i].screen_name === screen_name) return i;
     }
     return -1;
-};
+}; 

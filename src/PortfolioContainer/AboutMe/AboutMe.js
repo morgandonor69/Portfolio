@@ -4,6 +4,7 @@ import ScrollService from '../../utilities/ScrollService'
 import Animations from '../../utilities/Animations'
 import './AboutMe.css'
 
+
 export default function AboutMe(props) {
 
     let fadeInScreenHandler = (screen)=>{
@@ -43,7 +44,13 @@ export default function AboutMe(props) {
             <div className='about-me-parent'>
                 <ScreenHeading title={'About Me'} subHeading={'Why Choose Me?'}/>
                 <div className='about-me-card'>
-                    <div className='about-me-profile'></div>
+                    <div className='about-me-profile'>
+                         <video className="resume__video" poster="me.jpg" controls>
+                             <source src = "resume-vid.mp4" />
+
+                         </video>
+                         
+                    </div>
                     <div className='about-me-details'>
                         <span className='about-me=description'>{SCREEN_CONSTANTS.desrciption}</span> 
                         <div className='about-me-highlights'>
