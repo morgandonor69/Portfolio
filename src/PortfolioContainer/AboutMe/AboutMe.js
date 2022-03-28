@@ -57,7 +57,7 @@ export default function AboutMe(props) {
                             {""}
                             Hire Me
                         </button>
-                        <a href ='RESUME_11:21_NEW.pdf' download='Zach Zach.pdf'>
+                        <a href ='Z-RESUME.pdf' download='Zach Morgan Resume.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
                         </div>

@@ -34,7 +34,7 @@ export default function Profile() {
                     <div className='profile-details-name'>
                         <span className='primary-text'>
                             {" "}
-                            Hello, I'M <span className="highlighed-text">Zach</span>
+                            Hello, I'm <span className="highlighed-text">Zach</span>
                         </span>
                     </div>
                     <div className='profile-details-role'>
@@ -66,7 +66,7 @@ export default function Profile() {
                             {""}
                             Hire Me
                         </button>
-                        <a href ='RESUME_11:21_NEW.pdf' download='Zach Zach.pdf'>
+                        <a href ='Z-RESUME.pdf' download='Zach Morgan Resume.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
